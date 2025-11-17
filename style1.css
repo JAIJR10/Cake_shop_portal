@@ -29,8 +29,8 @@ body{
     height: 500px;
     width: 400px;
     border-radius: 20px;
-    background: url(./Screenshots/sample.png);   
-    background-size: cover;
+    background-image: url(./images/sample.png);
+    background-size: 590px;  
     background-position: center;
     box-shadow: 20px 20px 20pc rgba(113, 6, 135, 0.75);
     overflow: hidden;
@@ -105,3 +105,4 @@ button:hover{
     filter: drop-shadow(0 0 10px rgb(183, 29, 183));
     transition: 1s;
 }
+
