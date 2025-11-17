@@ -1,0 +1,109 @@
+a{
+    text-decoration: none;
+    color: rgb(249, 243, 243); 
+}
+
+#forget1{
+    margin-left: 47%;
+}
+
+#sign-up{
+    margin-left: 60%;
+}
+
+a:hover{
+    color: black;
+    transition: 1s;
+    /* padding: 10px; */
+   
+}
+
+body{
+    background-color: black;
+}
+
+.login{
+    margin-top: 5%;
+    margin-left: 38%;    
+    border: 1px solid rgb(255, 255, 255);
+    height: 500px;
+    width: 400px;
+    border-radius: 20px;
+    background: url(../../WUWA/fuluoluo-a9e3af69.webp);   
+    background-size: cover;
+    background-position: center;
+    box-shadow: 20px 20px 20pc rgba(113, 6, 135, 0.75);
+    overflow: hidden;
+}
+
+form{
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+    width:70%;
+    height: 10%;
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+}
+h1{
+    margin-left: 40%;
+    font-weight: normal;
+    font-size: 29px;
+    text-shadow: 0px 0px 2px rgb(200, 64, 200);
+}
+
+h1:hover{
+    filter: drop-shadow(0 0 10px rgb(215, 23, 215));
+    /* padding: 10px; */
+    transition: 10ms;
+}
+
+label{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+
+input{
+    background: rgba(245, 245, 245, 0.662);
+    height: 30px;
+    line-height: 40px;
+    width: 240px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: none;
+    margin-bottom: 20px;
+    color: rgb(99, 13, 116);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0) ;
+}
+
+input:hover{ 
+    filter: drop-shadow(0 0 10px rgb(183, 29, 183));
+    padding: 10px;
+    transition: 1s;
+}
+
+button{
+    background: rgba(255, 13, 251, 0);
+    height: 40px;
+    width: 275px;
+    line-height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin: 10px 0px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    color: rgb(61, 8, 47);
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+button:hover{
+    filter: drop-shadow(0 0 10px rgb(183, 29, 183));
+    transition: 1s;
+}
+
+ 
